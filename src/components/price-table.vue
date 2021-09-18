@@ -2,7 +2,7 @@
   <b-row align-h="center">
     <b-col cols="12" class="d-none d-md-block">
       <b-row align-h="center">
-        <b-col sm="10" md="8" xl="10" style="padding: 50px 0">
+        <b-col md="10" xl="10" style="padding: 50px 0">
           <div class="head">
             <span>MTARGET Is More Than Just A Software</span>
           </div>
@@ -20,11 +20,6 @@
       <b-row align-h="center">
         <b-col sm="10" md="10">
           <div class="table-head">
-            <b-row align-h="center">
-              <b-col sm="12" class="d-block d-sm-none">
-                <div class="title-small">Marketing Channels</div>
-              </b-col>
-            </b-row>
             <b-row>
               <b-col class="d-none d-sm-block" md="3" xl="3">
                 <div class="title">Marketing<br />Channels</div>
@@ -1317,7 +1312,7 @@ $font: (
   }
   .packet-title {
     text-align: center;
-    font-size: 24px;
+    font-size: clamp(20px, 24px, 32px);
     font-weight: 700;
   }
   .packet-sub-head {

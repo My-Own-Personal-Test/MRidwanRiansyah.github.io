@@ -1,12 +1,12 @@
 <template>
   <b-row>
-    <b-col md="12" class="d-none d-md-block text-center">
+    <b-col lg="12" xl="12" md="12" class="d-none d-md-block text-center">
       <div class="title">
         <h1>Let's Hear What We Can Do For You</h1>
       </div>
 
       <b-row align-h="center">
-        <b-col cols="10">
+        <b-col lg="10" xl="12" md="10">
           <b-row style="margin-top: 2%" align-content="center">
             <b-col cols="4">
               <b-form-input
@@ -50,7 +50,7 @@
       </b-row>
 
       <b-row style="margin-top: 4%" align-h="center">
-        <b-col cols="10">
+        <b-col md="10" lg="10" xl="12">
           <div class="ilus">
             <div class="market">
               <span>Made For Marketers</span>

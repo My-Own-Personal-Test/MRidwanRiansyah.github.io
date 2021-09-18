@@ -40,11 +40,6 @@
               <div class="e">E</div>
             </div>
           </div>
-          <!-- <b-row>
-              <b-col offset="2" cols="3"> </b-col>
-              <b-col cols="3"> </b-col>
-              <b-col cols="3"> </b-col>
-            </b-row> -->
         </b-col>
       </b-row>
 
@@ -89,9 +84,7 @@
             <b-row v-if="active == true" align-v="center">
               <b-col cols="4">
                 <div class="first">
-                  <span style="margin-left: 13px; font-size: 12px"
-                    >Contact Book</span
-                  >
+                  <span style="font-size: 12px">Contact Book</span>
                 </div>
               </b-col>
               <b-col cols="8">
@@ -117,9 +110,7 @@
             <b-row v-if="active == true" align-v="center">
               <b-col cols="4">
                 <div class="first">
-                  <span style="margin-left: 13px; font-size: 12px"
-                    >Personalization Book</span
-                  >
+                  <span style="font-size: 12px">Personalization Book</span>
                 </div>
               </b-col>
               <b-col cols="8">
@@ -151,9 +142,7 @@
             <b-row v-if="active == true" align-v="center">
               <b-col cols="4">
                 <div class="first">
-                  <span style="margin-left: 13px; font-size: 12px"
-                    >Drag & Drop Composer</span
-                  >
+                  <span style="font-size: 12px">Drag & Drop Composer</span>
                 </div>
               </b-col>
               <b-col cols="8">
@@ -185,9 +174,7 @@
             <b-row v-if="active == true" align-v="center">
               <b-col cols="4">
                 <div class="first">
-                  <span style="margin-left: 13px; font-size: 12px"
-                    >Email Automation</span
-                  >
+                  <span style="font-size: 12px">Email Automation</span>
                 </div>
               </b-col>
               <b-col cols="8">
@@ -219,9 +206,7 @@
             <b-row v-if="active == true" align-v="center">
               <b-col cols="4">
                 <div class="first">
-                  <span style="margin-left: 13px; font-size: 12px"
-                    >Email Scheduler</span
-                  >
+                  <span style="font-size: 12px">Email Scheduler</span>
                 </div>
               </b-col>
               <b-col cols="8">
@@ -253,9 +238,7 @@
             <b-row v-if="active == true" align-v="center">
               <b-col cols="4">
                 <div class="first">
-                  <span style="margin-left: 13px; font-size: 12px"
-                    >Campaign A/B Test</span
-                  >
+                  <span style="font-size: 12px">Campaign A/B Test</span>
                 </div>
               </b-col>
               <b-col cols="8">
@@ -287,9 +270,7 @@
             <b-row v-if="active == true" align-v="center">
               <b-col cols="4">
                 <div class="first">
-                  <span style="margin-left: 13px; font-size: 12px"
-                    >Customer Insight</span
-                  >
+                  <span style="font-size: 12px">Customer Insight</span>
                 </div>
               </b-col>
               <b-col cols="8">
@@ -321,9 +302,7 @@
             <b-row v-if="active == true" align-v="center">
               <b-col cols="4">
                 <div class="first">
-                  <span style="margin-left: 13px; font-size: 12px"
-                    >Campaign Analytics</span
-                  >
+                  <span style="font-size: 12px">Campaign Analytics</span>
                 </div>
               </b-col>
               <b-col cols="8">
@@ -355,9 +334,575 @@
             <b-row v-if="active == true" align-v="center">
               <b-col cols="4">
                 <div class="first">
-                  <span style="margin-left: 13px; font-size: 12px"
-                    >AI Conversational Email</span
+                  <span style="font-size: 12px">AI Conversational Email</span>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+
+            <!-- web notif -->
+            <b-row style="margin-top: 15px" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <b-button @click="active1 = !active1"
+                    >Web Push Notification
+                    <img src="../assets/down-white.svg" alt=""
+                  /></b-button>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-second.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-if="active1 == true" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <span style="font-size: 12px">Opt-in Generator</span>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-second.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-if="active1 == true" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <span style="font-size: 12px">Bulk Web Push</span>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-second.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-if="active1 == true" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <span style="font-size: 12px">Campagin Analytics</span>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-second.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-if="active1 == true" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <span style="font-size: 12px"
+                    >Targeted Web Push (Behavior)</span
                   >
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+
+            <!-- app notif -->
+            <b-row style="margin-top: 15px" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <b-button @click="active2 = !active2"
+                    >App Push Notification
+                    <img src="../assets/down-white.svg" alt=""
+                  /></b-button>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-if="active2 == true" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <span style="font-size: 12px">Opt-in Generator</span>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-second.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-if="active2 == true" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <span style="font-size: 12px">Bulk App Push</span>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-if="active2 == true" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <span style="font-size: 12px"
+                    >Targeted App Push (Behavior)</span
+                  >
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-second.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+
+            <!-- banner -->
+            <b-row style="margin-top: 15px" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <b-button @click="active3 = !active3"
+                    >Dynamic Banner <img src="../assets/down-white.svg" alt=""
+                  /></b-button>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-if="active3 == true" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <span style="font-size: 12px">Static Banner</span>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-second.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-if="active3 == true" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <span style="font-size: 12px"
+                    >Audience Persona Generator</span
+                  >
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-if="active3 == true" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <span style="font-size: 12px">Dynamic Banner (Behavior)</span>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+
+            <!-- WA -->
+            <b-row style="margin-top: 15px" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <b-button @click="active4 = !active4"
+                    >WhatsApp <img src="../assets/down-white.svg" alt=""
+                  /></b-button>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-if="active4 == true" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <span style="font-size: 12px">Template Message</span>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-if="active4 == true" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <span style="font-size: 12px">Session Message</span>
+                </div>
+              </b-col>
+              <b-col cols="8">
+                <div class="check-mark">
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/no-check.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="second">
+                    <img
+                      style="width: 15px"
+                      src="../assets/check-mark-third.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </b-col>
+            </b-row>
+            <b-row v-if="active4 == true" align-v="center">
+              <b-col cols="4">
+                <div class="first">
+                  <span style="font-size: 12px">WABA Dashboard</span>
                 </div>
               </b-col>
               <b-col cols="8">
@@ -398,6 +943,10 @@ export default {
   data() {
     return {
       active: false,
+      active1: false,
+      active2: false,
+      active3: false,
+      active4: false,
     };
   },
 };
@@ -472,20 +1021,24 @@ $font: (
 
 .price-table {
   background-color: #fff;
-  height: 500px;
+  max-height: 300px;
+  overflow-y: scroll;
   border-radius: 10px;
   box-shadow: 0px 10px 20px -8px rgb(221, 221, 221);
-  padding: 2%;
+  padding: 3%;
   font-family: "Montserrat", sans-serif;
-  .btn {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #df8200;
-    background-color: #fd9601;
-    img {
-      width: 12px;
+  .first {
+    .btn {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #df8200;
+      background-color: #fd9601;
+      font-size: 10px;
+      img {
+        width: 12px;
+      }
     }
   }
   .check-mark {

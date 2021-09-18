@@ -243,7 +243,7 @@
                         style="margin-left: 16px; margin-top: 9px"
                         class="d-none d-sm-block"
                       >
-                        <span>Bulk Web Push</span>
+                        <span>Bulk App Push</span>
                       </b-col>
                     </b-row>
                     <b-row v-if="active2 == true">

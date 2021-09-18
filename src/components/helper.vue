@@ -6,7 +6,7 @@
       </div>
 
       <b-row align-h="center">
-        <b-col lg="10" xl="12" md="10">
+        <b-col lg="10" xl="10" md="10">
           <b-row style="margin-top: 2%" align-content="center">
             <b-col cols="4">
               <b-form-input
@@ -50,7 +50,7 @@
       </b-row>
 
       <b-row style="margin-top: 4%" align-h="center">
-        <b-col md="10" lg="10" xl="12">
+        <b-col md="10" lg="10" xl="10">
           <div class="ilus">
             <div class="market">
               <span>Made For Marketers</span>
@@ -268,7 +268,7 @@ p {
     }
   }
   .top4 {
-    border-right: 0.5px solid #dae4e4;
+    border-left: 0.5px solid #dae4e4;
     width: 50%;
     text-align: left;
     .bottom4 {

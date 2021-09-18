@@ -934,6 +934,38 @@
           </div>
         </b-col>
       </b-row>
+
+      <b-row align-h="end">
+        <b-col cols="12">
+          <div class="packet-button">
+            <div class="blank"></div>
+            <div class="button">
+              <b-button class="p">Get Started</b-button>
+              <b-button class="b">Talk With Us</b-button>
+              <b-button class="e">Request Demo</b-button>
+            </div>
+          </div>
+        </b-col>
+      </b-row>
+
+      <b-row align-h="center">
+        <b-col cols="10">
+          <div class="dots">
+            <div class="black">
+              <div class="blank1"></div>
+              Professional
+            </div>
+            <div class="purp">
+              <div class="blank2"></div>
+              Business
+            </div>
+            <div class="orange">
+              <div class="blank3"></div>
+              Enterprise
+            </div>
+          </div>
+        </b-col>
+      </b-row>
     </b-col>
   </b-row>
 </template>
@@ -974,6 +1006,50 @@ $font: (
   text-align: center;
   font-weight: 500;
   color: #4b4a4a;
+}
+.packet-button {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  .blank {
+    width: 35%;
+  }
+  .button {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin-top: 4%;
+  }
+  .p {
+    font-size: 10px;
+    background-color: #494949;
+    color: #fff;
+    width: 30%;
+    font-weight: 600;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+  }
+  .b {
+    background-color: #5d3fdc;
+    color: #fff;
+    border: none;
+    font-size: 10px;
+    width: 30%;
+    height: 35px;
+    font-weight: 600;
+    border-radius: 6px;
+  }
+  .e {
+    background-color: #fd9601;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    font-size: 10px;
+    height: 35px;
+    width: 30%;
+    border-radius: 6px;
+  }
 }
 .packet-title {
   margin-top: 10%;
@@ -1050,6 +1126,54 @@ $font: (
       width: 100%;
       align-items: center;
       justify-content: center;
+    }
+  }
+}
+.dots {
+  display: flex;
+  width: 100%;
+  margin-top: 7%;
+  justify-content: space-between;
+  .black {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    color: grey;
+    .blank1 {
+      border-radius: 50px;
+      height: 16px;
+      width: 16px;
+      background-color: #4b4a4a;
+    }
+  }
+  .purp {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    color: grey;
+    .blank2 {
+      border-radius: 50px;
+      height: 16px;
+      width: 16px;
+      background-color: #5d3fdc;
+    }
+  }
+  .orange {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    color: grey;
+    .blank3 {
+      border-radius: 50px;
+      height: 16px;
+      width: 16px;
+      background-color: #fd9601;
     }
   }
 }

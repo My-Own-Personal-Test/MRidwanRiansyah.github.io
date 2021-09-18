@@ -1,5 +1,5 @@
 <template>
-  <b-container style="background-color: #f6f6f7" fluid>
+  <b-container style="background-color: #f6f6f7; padding-bottom: 4%" fluid>
     <price-table />
   </b-container>
 </template>

@@ -39,9 +39,99 @@
         </b-col>
       </b-row>
 
-      <b-row style="margin-top: 2.5%" align-h="center">
+      <b-row style="margin-top: 4%" align-h="center">
         <b-col cols="10">
           <h1>Sophisticated Features For You and Your Customers</h1>
+          <p>
+            We make it possible for you to understand your customers better
+            through data.
+          </p>
+        </b-col>
+      </b-row>
+
+      <b-row style="margin-top: 4%" align-h="center">
+        <b-col cols="10">
+          <div class="ilus">
+            <div class="market">
+              <span>Made For Marketers</span>
+            </div>
+            <span class="dev">Made For Developers</span>
+          </div>
+
+          <div class="contents">
+            <div class="top1">
+              <div class="foto">
+                <img
+                  src="https://mtarget.co/_nuxt/img/flow.5ba1a31.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="bottom1">
+                <h1>Flow</h1>
+                <p>
+                  Flow will make it possible for you to build a seamless
+                  automated cross channel customer experience, leading towards
+                  operational efficiency and revenue growth.
+                </p>
+                <b-button>Learn More</b-button>
+              </div>
+            </div>
+            <div class="top2">
+              <div class="foto">
+                <img
+                  src="https://mtarget.co/_nuxt/img/e-billing.6c2735a.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="bottom2">
+                <h1>E-Billing</h1>
+                <p>
+                  No more hassle to comply with the Government’s online
+                  transaction regulations. Ebilling will help you to generate
+                  and provide transaction bills automatically.
+                </p>
+                <b-button>Talk With Us</b-button>
+              </div>
+            </div>
+            <div class="top3">
+              <div class="foto">
+                <img
+                  src="https://mtarget.co/_nuxt/img/persona.0ecbf11.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="bottom3">
+                <h1>Persona</h1>
+                <p>
+                  Get to know your customers like never before. You are able to
+                  know who is ready for purchase or has started to slip away.
+                  This is beyond what works and what’s not.
+                </p>
+                <b-button>Request Demo</b-button>
+              </div>
+            </div>
+            <div class="top4">
+              <div class="foto">
+                <img
+                  src="https://mtarget.co/_nuxt/img/smart-otp.972f3cb.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="bottom4">
+                <h1>Smart OTP</h1>
+                <p>
+                  Security is not something to mess around. With the latest
+                  technology, Smart OTP can be used for purposes like
+                  authentication and passwordless login.
+                </p>
+                <b-button>Try It</b-button>
+              </div>
+            </div>
+          </div>
         </b-col>
       </b-row>
     </b-col>
@@ -64,6 +154,9 @@ h1 {
   color: map-get($font, "grey");
   font-weight: 700;
 }
+p {
+  color: map-get($font, "grey");
+}
 .btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -71,5 +164,131 @@ h1 {
   font-size: 14px;
   background-color: map-get($font, "orange");
   border: none;
+}
+.ilus {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  .market {
+    background-color: #fd9601;
+    border-radius: 10px 10px 0 0;
+    padding: 1% 4%;
+    color: #fff;
+    font-weight: 700;
+  }
+  .dev {
+    background-color: #6141e5;
+    border-radius: 10px 10px 0 0;
+    padding: 1% 4%;
+    color: #fff;
+    font-weight: 700;
+  }
+}
+.contents {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px -8px rgb(221, 221, 221);
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  .top1 {
+    width: 50%;
+    border-right: 0.5px solid #dae4e4;
+    text-align: left;
+    .bottom1 {
+      padding: 0 10%;
+      h1 {
+        margin-top: 3%;
+      }
+      p {
+        margin-top: 3%;
+      }
+      .btn {
+        margin-top: 3%;
+        background-color: #fff;
+        border: 1px solid #fd9601;
+        color: map-get($font, "orange");
+      }
+    }
+    .foto {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .top2 {
+    border-left: 0.5px solid #dae4e4;
+    width: 50%;
+    text-align: left;
+    .bottom2 {
+      padding: 0 10%;
+      h1 {
+        margin-top: 3%;
+      }
+      p {
+        margin-top: 3%;
+      }
+      .btn {
+        margin-top: 3%;
+        background-color: #fff;
+        border: 1px solid #fd9601;
+        color: map-get($font, "orange");
+      }
+    }
+    .foto {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .top3 {
+    border-right: 0.5px solid #dae4e4;
+    width: 50%;
+    text-align: left;
+    .bottom3 {
+      padding: 0 10%;
+      h1 {
+        margin-top: 3%;
+      }
+      p {
+        margin-top: 3%;
+      }
+      .btn {
+        margin-top: 3%;
+        background-color: #fff;
+        border: 1px solid #fd9601;
+        color: map-get($font, "orange");
+      }
+    }
+    .foto {
+      padding-top: 6%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .top4 {
+    border-right: 0.5px solid #dae4e4;
+    width: 50%;
+    text-align: left;
+    .bottom4 {
+      padding: 0 10%;
+      h1 {
+        margin-top: 3%;
+      }
+      p {
+        margin-top: 3%;
+      }
+      .btn {
+        margin-top: 3%;
+        background-color: #fff;
+        border: 1px solid #fd9601;
+        color: map-get($font, "orange");
+      }
+    }
+    .foto {
+      padding-top: 6%;
+      display: flex;
+      justify-content: center;
+    }
+  }
 }
 </style>

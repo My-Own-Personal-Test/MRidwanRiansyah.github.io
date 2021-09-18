@@ -1,6 +1,6 @@
 <template>
   <b-row>
-    <b-col md="12" class="d-none d-sm-block text-center">
+    <b-col md="12" class="d-none d-md-block text-center">
       <div class="title">
         <h1>Let's Hear What We Can Do For You</h1>
       </div>

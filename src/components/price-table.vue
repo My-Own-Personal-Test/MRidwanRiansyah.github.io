@@ -1,6 +1,6 @@
 <template>
   <b-row align-h="center">
-    <b-col cols="12">
+    <b-col cols="12" class="d-none d-md-block">
       <b-row align-h="center">
         <b-col sm="10" md="8" xl="10" style="padding: 50px 0">
           <div class="head">
@@ -149,7 +149,7 @@
                         style="margin-left: 16px; margin-top: 9px"
                         class="d-none d-sm-block"
                       >
-                        <span>Campagin A/B Test</span>
+                        <span>Campaign A/B Test</span>
                       </b-col>
                     </b-row>
                     <b-row v-if="active == true">
@@ -165,7 +165,7 @@
                         style="margin-left: 16px; margin-top: 9px"
                         class="d-none d-sm-block"
                       >
-                        <span>Campagin Analytics</span>
+                        <span>Campaign Analytics</span>
                       </b-col>
                     </b-row>
                     <b-row v-if="active == true">

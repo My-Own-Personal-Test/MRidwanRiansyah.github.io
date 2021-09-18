@@ -88,1173 +88,1177 @@
             </b-row>
           </div>
 
-          <div class="table-body">
-            <b-row>
-              <!-- Main Col -->
-              <b-col class="d-none d-sm-block" md="3" xl="3">
-                <!-- Email row -->
-                <div @click="active = !active" class="first">
-                  <img
-                    v-if="active == false"
-                    src="../assets/right-orange.svg"
-                    alt=""
-                  />
-                  <img v-else src="../assets/down-orange.svg" alt="" />
-                  <span>Email</span>
-                </div>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 13px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Contact Book</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Personalization Book</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Drag & Drop Composer</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Email Automation</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Email Scheduler</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Campagin A/B Test</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Customer Insight</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Campagin Analytics</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>AI Conversational Email</span>
-                  </b-col>
-                </b-row>
+          <b-row>
+            <b-col class="d-none d-sm-block" cols="12">
+              <div class="table-body">
+                <b-row>
+                  <!-- Main Col -->
+                  <b-col class="d-none d-sm-block" md="3" xl="3">
+                    <!-- Email row -->
+                    <div @click="active = !active" class="first">
+                      <img
+                        v-if="active == false"
+                        src="../assets/right-orange.svg"
+                        alt=""
+                      />
+                      <img v-else src="../assets/down-orange.svg" alt="" />
+                      <span>Email</span>
+                    </div>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 13px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Contact Book</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Personalization Book</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Drag & Drop Composer</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Email Automation</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Email Scheduler</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Campagin A/B Test</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Customer Insight</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Campagin Analytics</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>AI Conversational Email</span>
+                      </b-col>
+                    </b-row>
 
-                <!-- Notif row -->
-                <div @click="active1 = !active1" class="first1">
-                  <img
-                    v-if="active1 == false"
-                    src="../assets/right-orange.svg"
-                    alt=""
-                  />
-                  <img v-else src="../assets/down-orange.svg" alt="" />
-                  <span>Web Push Notification</span>
-                </div>
-                <b-row v-if="active1 == true">
+                    <!-- Notif row -->
+                    <div @click="active1 = !active1" class="first1">
+                      <img
+                        v-if="active1 == false"
+                        src="../assets/right-orange.svg"
+                        alt=""
+                      />
+                      <img v-else src="../assets/down-orange.svg" alt="" />
+                      <span>Web Push Notification</span>
+                    </div>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 13px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Opt-in Generator</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Bulk Web Push</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Campagin Analytics</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Targeted Web Push (Behavior)</span>
+                      </b-col>
+                    </b-row>
+
+                    <!-- App Notif -->
+                    <div @click="active2 = !active2" class="first1">
+                      <img
+                        v-if="active2 == false"
+                        src="../assets/right-orange.svg"
+                        alt=""
+                      />
+                      <img v-else src="../assets/down-orange.svg" alt="" />
+                      <span>App Push Notification</span>
+                    </div>
+                    <b-row v-if="active2 == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 13px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Opt-in Generator</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active2 == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Bulk Web Push</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active2 == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Targeted App Push (Behavior)</span>
+                      </b-col>
+                    </b-row>
+
+                    <!-- Banner -->
+                    <div @click="active3 = !active3" class="first1">
+                      <img
+                        v-if="active3 == false"
+                        src="../assets/right-orange.svg"
+                        alt=""
+                      />
+                      <img v-else src="../assets/down-orange.svg" alt="" />
+                      <span>Dynamic Banner</span>
+                    </div>
+                    <b-row v-if="active3 == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 13px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Static Banner</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active3 == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Audience Persona Generator</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active3 == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Dynamic Banner (Behavior)</span>
+                      </b-col>
+                    </b-row>
+
+                    <!-- WA -->
+                    <div @click="active4 = !active4" class="first1">
+                      <img
+                        v-if="active4 == false"
+                        src="../assets/right-orange.svg"
+                        alt=""
+                      />
+                      <img v-else src="../assets/down-orange.svg" alt="" />
+                      <span>WhatsApp</span>
+                    </div>
+                    <b-row v-if="active4 == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 13px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Template Message</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active4 == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>Session Message</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active4 == true">
+                      <b-col
+                        style="margin-left: 16px; margin-top: 9px"
+                        class="d-none d-sm-block"
+                      >
+                        <span>WABA Dashboard</span>
+                      </b-col>
+                    </b-row>
+                  </b-col>
+
+                  <!-- 1st col -->
+
                   <b-col
-                    style="margin-left: 16px; margin-top: 13px"
+                    style="border-left: 2px solid #dae4e4"
                     class="d-none d-sm-block"
+                    md="3"
+                    xl="3"
                   >
-                    <span>Opt-in Generator</span>
+                    <!-- Email row -->
+                    <div class="second">
+                      <img
+                        style="width: 15px"
+                        src="../assets/check-mark-first.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <span style="color: #4a4b4b">Unlimited</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-first.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-first.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-first.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-first.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-first.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+
+                    <!-- Notification row -->
+                    <div class="second1">
+                      <img
+                        style="width: 15px"
+                        src="../assets/no-check.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+
+                    <!-- App notif row -->
+                    <div class="second1">
+                      <img
+                        style="width: 15px"
+                        src="../assets/no-check.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active2 == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active2 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active2 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+
+                    <!-- Banner row -->
+                    <div class="second1">
+                      <img
+                        style="width: 15px"
+                        src="../assets/no-check.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active3 == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active3 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active3 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+
+                    <!-- WA -->
+                    <div class="second1">
+                      <img
+                        style="width: 15px"
+                        src="../assets/no-check.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active4 == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active4 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active4 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
                   </b-col>
-                </b-row>
-                <b-row v-if="active1 == true">
+
+                  <!-- 2nd col -->
+
                   <b-col
-                    style="margin-left: 16px; margin-top: 9px"
+                    style="border-left: 2px solid #dae4e4"
                     class="d-none d-sm-block"
+                    md="3"
+                    xl="3"
                   >
-                    <span>Bulk Web Push</span>
+                    <!-- Email row -->
+                    <div class="second">
+                      <img
+                        style="width: 15px"
+                        src="../assets/check-mark-second.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <span style="color: #6141e5">Unlimited</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-second.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-second.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-second.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-second.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-second.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-second.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-second.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+
+                    <!-- Notification row -->
+                    <div class="second1">
+                      <img
+                        style="width: 15px"
+                        src="../assets/check-mark-second.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-second.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-second.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-second.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+
+                    <!-- App notif row -->
+                    <div class="second1">
+                      <img
+                        style="width: 15px"
+                        src="../assets/no-check.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active2 == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-second.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active2 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-second.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active2 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+
+                    <!-- Banner row -->
+                    <div class="second1">
+                      <img
+                        style="width: 15px"
+                        src="../assets/no-check.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active3 == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-second.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active3 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active3 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+
+                    <!-- WA -->
+                    <div class="second1">
+                      <img
+                        style="width: 15px"
+                        src="../assets/no-check.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active4 == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active4 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active4 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/no-check.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
                   </b-col>
-                </b-row>
-                <b-row v-if="active1 == true">
+
+                  <!-- 3rd col -->
+
                   <b-col
-                    style="margin-left: 16px; margin-top: 9px"
+                    style="border-left: 2px solid #dae4e4"
                     class="d-none d-sm-block"
+                    md="3"
+                    xl="3"
                   >
-                    <span>Campagin Analytics</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active1 == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Targeted Web Push (Behavior)</span>
-                  </b-col>
-                </b-row>
+                    <!-- Email row -->
+                    <div class="second">
+                      <img
+                        style="width: 15px"
+                        src="../assets/check-mark-third.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <span style="color: #fd9601">Unlimited</span>
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
 
-                <!-- App Notif -->
-                <div @click="active2 = !active2" class="first1">
-                  <img
-                    v-if="active2 == false"
-                    src="../assets/right-orange.svg"
-                    alt=""
-                  />
-                  <img v-else src="../assets/down-orange.svg" alt="" />
-                  <span>App Push Notification</span>
-                </div>
-                <b-row v-if="active2 == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 13px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Opt-in Generator</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active2 == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Bulk Web Push</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active2 == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Targeted App Push (Behavior)</span>
-                  </b-col>
-                </b-row>
+                    <!-- Notification row -->
+                    <div class="second1">
+                      <img
+                        style="width: 15px"
+                        src="../assets/check-mark-third.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active1 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
 
-                <!-- Banner -->
-                <div @click="active3 = !active3" class="first1">
-                  <img
-                    v-if="active3 == false"
-                    src="../assets/right-orange.svg"
-                    alt=""
-                  />
-                  <img v-else src="../assets/down-orange.svg" alt="" />
-                  <span>Dynamic Banner</span>
-                </div>
-                <b-row v-if="active3 == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 13px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Static Banner</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active3 == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Audience Persona Generator</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active3 == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Dynamic Banner (Behavior)</span>
-                  </b-col>
-                </b-row>
+                    <!-- App notif row -->
+                    <div class="second1">
+                      <img
+                        style="width: 15px"
+                        src="../assets/check-mark-third.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active2 == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active2 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active2 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
 
-                <!-- WA -->
-                <div @click="active4 = !active4" class="first1">
-                  <img
-                    v-if="active4 == false"
-                    src="../assets/right-orange.svg"
-                    alt=""
-                  />
-                  <img v-else src="../assets/down-orange.svg" alt="" />
-                  <span>WhatsApp</span>
-                </div>
-                <b-row v-if="active4 == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 13px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Template Message</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active4 == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>Session Message</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active4 == true">
-                  <b-col
-                    style="margin-left: 16px; margin-top: 9px"
-                    class="d-none d-sm-block"
-                  >
-                    <span>WABA Dashboard</span>
-                  </b-col>
-                </b-row>
-              </b-col>
+                    <!-- Banner row -->
+                    <div class="second1">
+                      <img
+                        style="width: 15px"
+                        src="../assets/check-mark-third.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active3 == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active3 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active3 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
 
-              <!-- 1st col -->
-
-              <b-col
-                style="border-left: 2px solid #dae4e4"
-                class="d-none d-sm-block"
-                md="3"
-                xl="3"
-              >
-                <!-- Email row -->
-                <div class="second">
-                  <img
-                    style="width: 15px"
-                    src="../assets/check-mark-first.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <span style="color: #4a4b4b">Unlimited</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-first.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-first.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-first.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-first.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-first.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-
-                <!-- Notification row -->
-                <div class="second1">
-                  <img
-                    style="width: 15px"
-                    src="../assets/no-check.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active1 == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active1 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active1 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active1 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-
-                <!-- App notif row -->
-                <div class="second1">
-                  <img
-                    style="width: 15px"
-                    src="../assets/no-check.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active2 == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active2 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active2 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-
-                <!-- Banner row -->
-                <div class="second1">
-                  <img
-                    style="width: 15px"
-                    src="../assets/no-check.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active3 == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active3 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active3 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-
-                <!-- WA -->
-                <div class="second1">
-                  <img
-                    style="width: 15px"
-                    src="../assets/no-check.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active4 == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active4 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active4 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-              </b-col>
-
-              <!-- 2nd col -->
-
-              <b-col
-                style="border-left: 2px solid #dae4e4"
-                class="d-none d-sm-block"
-                md="3"
-                xl="3"
-              >
-                <!-- Email row -->
-                <div class="second">
-                  <img
-                    style="width: 15px"
-                    src="../assets/check-mark-second.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <span style="color: #6141e5">Unlimited</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-second.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-second.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-second.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-second.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-second.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-second.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-second.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-
-                <!-- Notification row -->
-                <div class="second1">
-                  <img
-                    style="width: 15px"
-                    src="../assets/check-mark-second.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active1 == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-second.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active1 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-second.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active1 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-second.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active1 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-
-                <!-- App notif row -->
-                <div class="second1">
-                  <img
-                    style="width: 15px"
-                    src="../assets/no-check.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active2 == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-second.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active2 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-second.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active2 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-
-                <!-- Banner row -->
-                <div class="second1">
-                  <img
-                    style="width: 15px"
-                    src="../assets/no-check.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active3 == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-second.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active3 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active3 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-
-                <!-- WA -->
-                <div class="second1">
-                  <img
-                    style="width: 15px"
-                    src="../assets/no-check.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active4 == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active4 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active4 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/no-check.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-              </b-col>
-
-              <!-- 3rd col -->
-
-              <b-col
-                style="border-left: 2px solid #dae4e4"
-                class="d-none d-sm-block"
-                md="3"
-                xl="3"
-              >
-                <!-- Email row -->
-                <div class="second">
-                  <img
-                    style="width: 15px"
-                    src="../assets/check-mark-third.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <span style="color: #fd9601">Unlimited</span>
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-
-                <!-- Notification row -->
-                <div class="second1">
-                  <img
-                    style="width: 15px"
-                    src="../assets/check-mark-third.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active1 == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active1 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active1 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active1 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-
-                <!-- App notif row -->
-                <div class="second1">
-                  <img
-                    style="width: 15px"
-                    src="../assets/check-mark-third.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active2 == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active2 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active2 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-
-                <!-- Banner row -->
-                <div class="second1">
-                  <img
-                    style="width: 15px"
-                    src="../assets/check-mark-third.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active3 == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active3 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active3 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-
-                <!-- WA -->
-                <div class="second1">
-                  <img
-                    style="width: 15px"
-                    src="../assets/check-mark-third.svg"
-                    alt=""
-                  />
-                </div>
-                <b-row v-if="active4 == true">
-                  <b-col
-                    style="margin-top: 13px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active4 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-                <b-row v-if="active4 == true">
-                  <b-col
-                    style="margin-top: 9px"
-                    class="d-none d-sm-block text-center"
-                  >
-                    <img
-                      style="width: 15px"
-                      src="../assets/check-mark-third.svg"
-                      alt=""
-                    />
-                  </b-col>
-                </b-row>
-              </b-col>
-            </b-row>
-          </div>
+                    <!-- WA -->
+                    <div class="second1">
+                      <img
+                        style="width: 15px"
+                        src="../assets/check-mark-third.svg"
+                        alt=""
+                      />
+                    </div>
+                    <b-row v-if="active4 == true">
+                      <b-col
+                        style="margin-top: 13px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active4 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                    <b-row v-if="active4 == true">
+                      <b-col
+                        style="margin-top: 9px"
+                        class="d-none d-sm-block text-center"
+                      >
+                        <img
+                          style="width: 15px"
+                          src="../assets/check-mark-third.svg"
+                          alt=""
+                        />
+                      </b-col>
+                    </b-row>
+                  </b-col>
+                </b-row>
+              </div>
+            </b-col>
+          </b-row>
         </b-col>
       </b-row>
     </b-col>

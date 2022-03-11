@@ -1341,7 +1341,7 @@ $font: (
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-image: url("https://mtarget.co/_nuxt/img/professional-color.52ed9c3.png");
+    background-image: url("https://mtarget.co/_nuxt/img/professional-color.7f51243.png");
     height: 148px;
     span {
       color: #fff;
@@ -1353,7 +1353,7 @@ $font: (
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-image: url("https://mtarget.co/_nuxt/img/professional-color.52ed9c3.png");
+    background-image: url("https://mtarget.co/_nuxt/img/professional-color.7f51243.png");
     height: 148px;
     span {
       color: #fff;
@@ -1365,7 +1365,7 @@ $font: (
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-image: url("https://mtarget.co/_nuxt/img/business-color.0405803.png");
+    background-image: url("https://mtarget.co/_nuxt/img/business-color.94abee6.png");
     height: 148px;
     span {
       color: #fff;
@@ -1377,7 +1377,7 @@ $font: (
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-image: url("https://mtarget.co/_nuxt/img/enterprise-color.965a38b.png");
+    background-image: url("https://mtarget.co/_nuxt/img/enterprise-color.019a6b0.png");
     height: 148px;
     span {
       color: #fff;

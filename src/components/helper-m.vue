@@ -63,13 +63,13 @@
             <div class="top1">
               <div class="foto">
                 <img
-                  src="https://mtarget.co/_nuxt/img/flow.5ba1a31.png"
+                  src="https://mtarget.co/_nuxt/img/flow.e18cc0f.png"
                   alt=""
                 />
               </div>
 
               <div class="bottom1">
-                <h1>Flow</h1>
+                <h3>Flow</h3>
                 <p>
                   Flow will make it possible for you to build a seamless
                   automated cross channel customer experience, leading towards
@@ -81,13 +81,13 @@
             <div class="top3">
               <div class="foto">
                 <img
-                  src="https://mtarget.co/_nuxt/img/persona.0ecbf11.png"
+                  src="https://mtarget.co/_nuxt/img/persona.abc80f6.png"
                   alt=""
                 />
               </div>
 
               <div class="bottom3">
-                <h1>Persona</h1>
+                <h3>Persona</h3>
                 <p>
                   Get to know your customers like never before. You are able to
                   know who is ready for purchase or has started to slip away.
@@ -108,13 +108,13 @@
             <div class="top2">
               <div class="foto">
                 <img
-                  src="https://mtarget.co/_nuxt/img/e-billing.6c2735a.png"
+                  src="https://mtarget.co/_nuxt/img/e-billing.5909b96.png"
                   alt=""
                 />
               </div>
 
               <div class="bottom2">
-                <h1>E-Billing</h1>
+                <h3>E-Billing</h3>
                 <p>
                   No more hassle to comply with the Government’s online
                   transaction regulations. Ebilling will help you to generate
@@ -126,7 +126,7 @@
             <div class="top4">
               <div class="foto">
                 <img
-                  src="https://mtarget.co/_nuxt/img/smart-otp.972f3cb.png"
+                  src="https://mtarget.co/_nuxt/img/smart-otp.15e0ad3.png"
                   alt=""
                 />
               </div>

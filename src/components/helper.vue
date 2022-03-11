@@ -64,7 +64,7 @@
             <div class="top1">
               <div class="foto">
                 <img
-                  src="https://mtarget.co/_nuxt/img/flow.5ba1a31.png"
+                  src="https://mtarget.co/_nuxt/img/flow.e18cc0f.png"
                   alt=""
                 />
               </div>
@@ -82,7 +82,7 @@
             <div class="top2">
               <div class="foto">
                 <img
-                  src="https://mtarget.co/_nuxt/img/e-billing.6c2735a.png"
+                  src="https://mtarget.co/_nuxt/img/e-billing.5909b96.png"
                   alt=""
                 />
               </div>
@@ -100,7 +100,7 @@
             <div class="top3">
               <div class="foto">
                 <img
-                  src="https://mtarget.co/_nuxt/img/persona.0ecbf11.png"
+                  src="https://mtarget.co/_nuxt/img/persona.abc80f6.png"
                   alt=""
                 />
               </div>
@@ -118,7 +118,7 @@
             <div class="top4">
               <div class="foto">
                 <img
-                  src="https://mtarget.co/_nuxt/img/smart-otp.972f3cb.png"
+                  src="https://mtarget.co/_nuxt/img/smart-otp.15e0ad3.png"
                   alt=""
                 />
               </div>

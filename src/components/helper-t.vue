@@ -1,50 +1,53 @@
 <template>
-  <b-row align-h="center" style="margin:0">
+  <b-row style="margin:0">
     <b-col
-      class="d-xs-block d-sm-block d-md-none d-lg-none d-xl-none text-center"
-      cols="11"
+      lg="12"
+      xl="12"
+      md="12"
+      class="d-none d-md-block d-lg-none text-center"
     >
       <div class="title">
-        <h3>
-          Let's Hear What <br />
-          We Can Do For <br />You
-        </h3>
+        <h1>Let's Hear What We Can Do For You</h1>
       </div>
 
       <b-row align-h="center">
-        <b-col cols="10">
-          <b-row style="margin-top: 2%" align-h="center">
-            <b-col cols="6">
+        <b-col lg="10" xl="10" md="10">
+          <b-row style="margin-top: 2%" align-content="center">
+            <b-col cols="4">
               <b-form-input
                 type="text"
                 placeholder="Full Name"
                 required
-                style="margin-bottom: 10px"
               ></b-form-input>
+            </b-col>
+            <b-col cols="4">
               <b-form-input
                 type="email"
                 placeholder="Enter Email"
                 required
-                style="margin-bottom: 10px"
               ></b-form-input>
+            </b-col>
+            <b-col cols="4">
               <b-form-input
                 type="number"
                 placeholder="+62"
                 required
-                style="margin-bottom: 20px"
               ></b-form-input>
-              <b-button>Talk To An Expert</b-button>
             </b-col>
           </b-row>
         </b-col>
       </b-row>
 
+      <b-row style="margin-top: 2.5%" align-h="center">
+        <b-col cols="4">
+          <b-button>TALK TO AN EXPERT</b-button>
+        </b-col>
+      </b-row>
+
       <b-row style="margin-top: 4%" align-h="center">
         <b-col cols="10">
-          <h3 style="color: #4b4a4a">
-            Sophisticated Features For You and Your Customers
-          </h3>
-          <p style="color: #4b4a4a; font-size: 13px">
+          <h1>Sophisticated Features For You and Your Customers</h1>
+          <p>
             We make it possible for you to understand your customers better
             through data.
           </p>
@@ -52,10 +55,13 @@
       </b-row>
 
       <b-row style="margin-top: 4%" align-h="center">
-        <b-col cols="11">
+        <b-col md="10" lg="10" xl="10">
           <div class="ilus">
             <div class="market">
               <span>Made For Marketers</span>
+            </div>
+            <div class="dev">
+              <span>Made For Developers</span>
             </div>
           </div>
 
@@ -69,13 +75,31 @@
               </div>
 
               <div class="bottom1">
-                <h3>Flow</h3>
+                <h1>Flow</h1>
                 <p>
                   Flow will make it possible for you to build a seamless
                   automated cross channel customer experience, leading towards
                   operational efficiency and revenue growth.
                 </p>
                 <b-button>Learn More</b-button>
+              </div>
+            </div>
+            <div class="top2">
+              <div class="foto">
+                <img
+                  src="https://mtarget.co/_nuxt/img/e-billing.5909b96.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="bottom2">
+                <h1>E-Billing</h1>
+                <p>
+                  No more hassle to comply with the Government’s online
+                  transaction regulations. Ebilling will help you to generate
+                  and provide transaction bills automatically.
+                </p>
+                <b-button>Talk With Us</b-button>
               </div>
             </div>
             <div class="top3">
@@ -87,40 +111,13 @@
               </div>
 
               <div class="bottom3">
-                <h3>Persona</h3>
+                <h1>Persona</h1>
                 <p>
                   Get to know your customers like never before. You are able to
                   know who is ready for purchase or has started to slip away.
                   This is beyond what works and what’s not.
                 </p>
                 <b-button>Request Demo</b-button>
-              </div>
-            </div>
-          </div>
-
-          <div class="ilus" style="margin-top: 12%">
-            <div class="dev">
-              <span>Made For Developers</span>
-            </div>
-          </div>
-
-          <div class="contents">
-            <div class="top2">
-              <div class="foto">
-                <img
-                  src="https://mtarget.co/_nuxt/img/e-billing.5909b96.png"
-                  alt=""
-                />
-              </div>
-
-              <div class="bottom2">
-                <h3>E-Billing</h3>
-                <p>
-                  No more hassle to comply with the Government’s online
-                  transaction regulations. Ebilling will help you to generate
-                  and provide transaction bills automatically.
-                </p>
-                <b-button>Talk With Us</b-button>
               </div>
             </div>
             <div class="top4">
@@ -160,16 +157,20 @@ $font: (
   "grey": #4b4a4a,
 );
 
-.title {
-  color: #4b4a4a;
+h1 {
+  color: map-get($font, "grey");
   font-weight: 700;
 }
+p {
+  color: map-get($font, "grey");
+}
 .btn {
-  background-color: #fd9601;
-  border: none;
-  font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-weight: 600;
+  padding: 2% 5%;
+  font-size: 14px;
+  background-color: map-get($font, "orange");
+  border: none;
 }
 .ilus {
   font-family: "Montserrat", sans-serif;
@@ -190,20 +191,17 @@ $font: (
     font-weight: 700;
   }
 }
-
 .contents {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 10px 20px -8px rgb(221, 221, 221);
-  padding: 5% 2%;
+  padding: 2%;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  img {
-    width: 85%;
-  }
   .top1 {
-    width: 100%;
+    width: 50%;
+    border-right: 0.5px solid #dae4e4;
     text-align: left;
     .bottom1 {
       padding: 0 10%;
@@ -229,7 +227,8 @@ $font: (
     }
   }
   .top2 {
-    width: 100%;
+    border-left: 0.5px solid #dae4e4;
+    width: 50%;
     text-align: left;
     .bottom2 {
       padding: 0 10%;
@@ -255,7 +254,8 @@ $font: (
     }
   }
   .top3 {
-    width: 100%;
+    border-right: 0.5px solid #dae4e4;
+    width: 50%;
     text-align: left;
     .bottom3 {
       padding: 0 10%;
@@ -282,7 +282,8 @@ $font: (
     }
   }
   .top4 {
-    width: 100%;
+    border-left: 0.5px solid #dae4e4;
+    width: 50%;
     text-align: left;
     .bottom4 {
       padding: 0 10%;

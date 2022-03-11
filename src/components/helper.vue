@@ -1,6 +1,11 @@
 <template>
   <b-row>
-    <b-col lg="12" xl="12" md="12" class="d-none d-md-block text-center">
+    <b-col
+      lg="12"
+      xl="12"
+      md="12"
+      class="d-none d-md-none d-lg-block text-center"
+    >
       <div class="title">
         <h1>Let's Hear What We Can Do For You</h1>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <b-row align-h="center">
+  <b-row align-h="center" style="margin:0">
     <b-col
       class="d-xs-block d-sm-block d-md-none d-lg-none d-xl-none"
       cols="11"

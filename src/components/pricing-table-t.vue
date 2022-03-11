@@ -1,6 +1,6 @@
 <template>
-  <b-row align-h="center">
-    <b-col cols="12" class="d-none d-md-none d-lg-block">
+  <b-row style="margin:0">
+    <b-col cols="12" class="d-none d-md-block d-lg-none">
       <b-row align-h="center">
         <b-col md="10" xl="10" style="padding: 50px 0">
           <div class="head">
@@ -29,14 +29,14 @@
                   <b-col class="d-none d-sm-block" md="4" xl="4">
                     <div class="packet1">
                       <div class="packet-title">
-                        <span>Professional</span>
+                        <span>P</span>
                       </div>
-                      <div class="packet-sub-head">
+                      <!-- <div class="packet-sub-head">
                         <span>The perfect spot to start</span>
                       </div>
                       <div class="button">
                         <b-button>Get Started</b-button>
-                      </div>
+                      </div> -->
                     </div>
                   </b-col>
                   <b-col class="d-block d-sm-none" sm="4">
@@ -55,27 +55,27 @@
                   <b-col class="d-none d-sm-block" md="4" xl="4">
                     <div class="packet2">
                       <div class="packet-title">
-                        <span>Business</span>
+                        <span>B</span>
                       </div>
-                      <div class="packet-sub-head">
+                      <!-- <div class="packet-sub-head">
                         <span>Essential to level up your marketing </span>
                       </div>
                       <div class="button">
                         <b-button>Talk With Us</b-button>
-                      </div>
+                      </div> -->
                     </div>
                   </b-col>
                   <b-col class="d-none d-sm-block" md="4" xl="4">
                     <div class="packet3">
                       <div class="packet-title">
-                        <span>Enterprise</span>
+                        <span>E</span>
                       </div>
-                      <div class="packet-sub-head">
+                      <!-- <div class="packet-sub-head">
                         <span>Ideal for customer centric brands</span>
                       </div>
                       <div class="button">
                         <b-button>Request Demo</b-button>
-                      </div>
+                      </div> -->
                     </div>
                   </b-col>
                 </b-row>
@@ -1339,10 +1339,11 @@ $font: (
   .packet1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     background-image: url("https://mtarget.co/_nuxt/img/professional-color.7f51243.png");
     height: 148px;
+    padding-top: 8%;
     span {
       color: #fff;
     }
@@ -1363,10 +1364,11 @@ $font: (
   .packet2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     background-image: url("https://mtarget.co/_nuxt/img/business-color.94abee6.png");
     height: 148px;
+    padding-top: 8%;
     span {
       color: #fff;
     }
@@ -1375,10 +1377,11 @@ $font: (
   .packet3 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     background-image: url("https://mtarget.co/_nuxt/img/enterprise-color.019a6b0.png");
     height: 148px;
+    padding-top: 8%;
     span {
       color: #fff;
     }
